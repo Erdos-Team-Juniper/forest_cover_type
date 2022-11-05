@@ -10,7 +10,7 @@ The Juniper team of the Erdős Institute Data Science Bootcamp Fall 2022 has uti
 
 ## Dataset
 ### Original Dataset
-The dataset used for this project can be found on [Kaggle](https://www.kaggle.com/datasets/gpiosenka/100-bird-specieshttps://www.kaggle.com/competitions/forest-cover-type-kernels-only/data). The original training dataset includes 15,120 observations with the 12 features and the cover type. 
+The dataset used for this project can be found on [Kaggle](https://www.kaggle.com/competitions/forest-cover-type-kernels-only/data). The original training dataset includes 15,120 observations with the 12 features and the cover type. 
 
 ### Our Dataset
 In our project, we focused on
