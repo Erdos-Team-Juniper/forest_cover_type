@@ -13,10 +13,10 @@ The Juniper team of the Erdős Institute Data Science Bootcamp Fall 2022 has uti
 The dataset used for this project can be found on [Kaggle](https://www.kaggle.com/competitions/forest-cover-type-kernels-only/data). The original training dataset includes 15,120 observations with the 12 features and the cover type. 
 
 ### Our Dataset
-In our project, we focused on
+In our project, we splitted the original training set and used the 80% as our trainign set and the remaing 20% as validation set. 
 
 ## Training and Model Selection
-We deployed
+We deployed 4 models: random forest, k-nearest neiboghers, gradient boosting, and kernel SVM. 
 
 ## Results
 
