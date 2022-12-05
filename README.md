@@ -22,10 +22,9 @@ Soil_type7 and Soil_type15 don't have any correlations with Cover_Type, so we re
 We deployed 6 algorithms: Random Forest, k-nearest neighbors (KNN), Support Vector Machines (SVM), Gradient Boosting, AdaBoost, and xgboost. 
 
 ## Results
-Overall, our three ensemble learning algorithms (Random forest, XGBoost, and Gradient Boosting) did better in predicting our dataset. The random forest classifier and XGBoost with parameter tuning had the highest overall accuracy of 0.88. 
-Compared with these models, Adaboost performed poorly in predicting the forest cover type. 
-KNN and SVM were worse than the three ensemble models. In particular, KNN might be overfitted since k=1 was the optimal estimator based on the result of the cross-validations. 
-When focusing on the predicted forest cover class, type 1 and type 2 got mistaken for each other, likely resulting from their similar tree traits. They generally prefer low to moderate soil moisture levels and are shade intolerant. Although the spruce/fir is typically fire-intolerant and lodgepole pine is not, their growths after fires are relatively fast, therefore, the distance to the past fire points, which was the only available variable, regarding fires in this dataset, might not be sufficient to distinguish these two forest cover accurately.  
+Overall, our three ensemble learning algorithms (Random forest, XGBoost, and Gradient Boosting) did better in predicting our dataset. The random forest classifier and XGBoost with parameter tuning had the highest overall accuracy of 0.88. Compared with these models, Adaboost performed poorly in predicting the forest cover type. KNN and SVM were worse than the three ensemble models. In particular, KNN might be overfitted since k=1 was the optimal estimator based on the result of the cross-validations.
+
+When focusing on the predicted forest cover class, type 1 and type 2 got mistaken for each other, likely resulting from their similar tree traits. They generally prefer low to moderate soil moisture levels and are shade intolerant. Although the spruce/fir is typically fire-intolerant and lodgepole pine is not, their growths after fires are relatively fast, therefore, the distance to the past fire points, which was the only available variable, regarding fires in this dataset, might not be sufficient to distinguish these two forest cover accurately. In contrast, the precision and recall scores of type 7 (Krummholz) were almost always the highest in any model. This is because Krummholz is not a specific tree species but a unique formation of trees under exposure to fierce, freezing winds.  
 
 ## Future directions
 1. 
