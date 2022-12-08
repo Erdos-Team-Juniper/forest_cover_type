@@ -35,6 +35,8 @@ We have deployed a base model as multi logistic regression and 6 different ML mo
 
 ## Results
 Overall, our three ensemble learning algorithms (XGBoost, Random Forest, and Gradient Boosting) did better in predicting our dataset. XGBoost with parameter tuning had the highest overall accuracy of 0.88, which improved the accuracy by 22% compared with the base multi-logistic regression model. Adaboost, on the other hand, performed poorly in predicting the forest cover type. KNN and SVM achieved 82% of accuracy, however, KNN might particularly be overfitted since k=1 was the optimal estimator based on the result of the cross-validations.
+
+
 ![image](https://user-images.githubusercontent.com/90373346/206393809-4658da1e-d34d-4cca-a9c1-f21c5ded8ade.png)
 
 
