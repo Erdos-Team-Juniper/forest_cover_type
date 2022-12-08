@@ -16,6 +16,7 @@ The dataset of this project is available on [Kaggle](https://www.kaggle.com/comp
 ### Visualization data with Topology
 Topology has been used successfully with other projects (eg. COVID-19 data) to find hidden relationships between variables. We’ve also created images that clearly show that elevation is the feature that distinguishes clusters in our data set the most. These images highlight the most important type of data to collect in regards to cover type identification.  
 
+![image](https://user-images.githubusercontent.com/90373346/206394052-50b401c5-6b3e-4ed4-8985-a80445b28eb2.png)
 
 
 ### Model Selection
