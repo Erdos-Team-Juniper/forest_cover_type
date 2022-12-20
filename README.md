@@ -5,6 +5,8 @@ The Juniper Team of the Erdős Institute has utilized machine learning algorithm
 
 We have evaluated the success of our models using the overall accuracies in predicting each dominant forest cover type. After testing six different algorithms, we found our XGBoost algorithms with parameter tunings had the highest accuracy, correctly predicting 88% of our data points.
 
+This project at the Erdős Institute Fall 2022 Bootcamp was voted by industry and alumni partners in the Top 5 out of 30 submitted projects. The link to the presentation is available [here](https://www.erdosinstitute.org/project-database/fall-2022/juniper).
+
 ### Team Members:
 - Chris Chia
 - [Moeka Ono](https://www.linkedin.com/in/moeka-ono/)
